@@ -1,4 +1,4 @@
-# ⚡ ChatID Bot (PHP)
+# ⚡ ID Fetcher Bot (PHP)
 
 A fast and minimal Telegram bot built using PHP. Instantly fetch Telegram **User IDs**, **Group Chat IDs**, and **Forwarded User IDs** — perfect for bot developers, group admins, and power users.
 
@@ -29,18 +29,22 @@ A fast and minimal Telegram bot built using PHP. Instantly fetch Telegram **User
 
 ---
 
-## 🔧 Installation
+## 🔧 Setup
 
-1. Upload `chatidbot.php` to a PHP-compatible server.  
-2. Open the file and replace the token line with your bot token:
+1. Upload the `chatidbot.php` file to a publicly accessible folder on your PHP-supported web server.
+
+2. Open the file and set your Telegram bot token:
 
    ```php
    $botToken = 'YOUR_BOT_TOKEN_HERE';
 
-3. Set up the webhook using:
+3. Set the webhook for your bot by visiting the following URL (replace placeholders):
 
-```php
-https://api.telegram.org/bot<YOUR_BOT_TOKEN>/setWebhook?url=https://yourdomain.com/chatidbot.php```
+https://api.telegram.org/bot<YOUR_BOT_TOKEN>/setWebhook?url=https://yourdomain.com/chatidbot.php
+
+Example:
+
+https://api.telegram.org/bot123456:ABCDEF/setWebhook?url=https://example.com/chatidbot.php
 
 
 
@@ -53,7 +57,7 @@ Private Chat → Bot replies with your Telegram User ID
 
 Group/Channel → Bot replies with chat ID when someone sends a message
 
-Forwarded Message → Replies with the original sender's User ID
+Forwarded Message → Bot replies with original sender’s User ID
 
 
 
@@ -74,7 +78,7 @@ Add logging of user data
 
 Restrict usage to specific Telegram IDs
 
-Add inline buttons, commands, or admin panel
+Add inline buttons or commands
 
 
 
@@ -97,3 +101,4 @@ Released under the MIT License — use, modify, and share freely.
 <p align="center">
   Built for Telegram devs who value speed, simplicity, and control.
 </p>
+```
