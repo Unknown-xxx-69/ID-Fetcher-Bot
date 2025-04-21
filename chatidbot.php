@@ -48,7 +48,7 @@ if (isset($message["user_shared"])) {
             "📊 𝗔𝗱𝗱𝗶𝘁𝗶𝗼𝗻𝗮𝗹 𝗜𝗻𝗳𝗼:\n" .
             "⏰ 𝗙𝗲𝘁𝗰𝗵𝗲𝗱: <code>$time</code>\n\n" .
             "💡 𝗧𝗶𝗽: <code>Click on any text in this format to copy it!</code>\n" .
-            "👨‍💻 𝗕𝗼𝘁 𝗯𝘆: @BjsWorks";
+            "👨‍💻 𝗕𝗼𝘁 𝗯𝘆: @BotVerseRavi";
 
     sendMessage($chat_id, $text, "HTML");
     exit;
@@ -80,7 +80,7 @@ if (isset($message["chat_shared"])) {
             "📊 𝗔𝗱𝗱𝗶𝘁𝗶𝗼𝗻𝗮𝗹 𝗜𝗻𝗳𝗼:\n" .
             "⏰ 𝗙𝗲𝘁𝗰𝗵𝗲𝗱: <code>$time</code>\n\n" .
             "💡 𝗧𝗶𝗽: <code>Click on any text in this format to copy it!</code>\n" .
-            "👨‍💻 𝗕𝗼𝘁 𝗯𝘆: @BjsWorks";
+            "👨‍💻 𝗕𝗼𝘁 𝗯𝘆: @BotVerseRavi";
 
     sendMessage($chat_id, $text, "HTML");
     exit;
