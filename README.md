@@ -101,5 +101,3 @@
                 <p align="center">
                   Built for Telegram Bot Developers & Admins who need speed.
                   </p>
-                  ```
-
