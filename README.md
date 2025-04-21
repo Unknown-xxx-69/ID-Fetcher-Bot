@@ -64,10 +64,9 @@ Forwarded Message: The bot replies with the original sender’s User ID.
 
 🖼️ Example Output
 
-Your Telegram ID: 123456789
-Chat ID: -1009876543210
+Your Telegram ID: 123456789  
+Chat ID: -1009876543210  
 Forwarded From User ID: 987654321
-
 
 ---
 
@@ -98,6 +97,5 @@ This project is licensed under the MIT License. Feel free to use, modify, and sh
 ---
 
 <p align="center">
-  🚀 Built for **Telegram developers** who value speed, simplicity, and complete control over their bots.
+  🚀 Built for <strong>Telegram developers</strong> who value speed, simplicity, and complete control over their bots.
 </p>
-```
