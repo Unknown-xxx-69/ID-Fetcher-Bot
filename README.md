@@ -37,14 +37,16 @@ An advanced, lightning-fast Telegram bot built with PHP, designed to fetch **Use
    ```php
    $botToken = 'YOUR_BOT_TOKEN_HERE';
 
-```markdown
 3. Set the webhook for your bot by visiting the following URL (replace placeholders):
 
-    https://api.telegram.org/bot{YOUR_BOT_TOKEN}/setWebhook?url=https://yourdomain.com/chatidbot.php
+https://api.telegram.org/bot{YOUR_BOT_TOKEN}/setWebhook?url=https://yourdomain.com/chatidbot.php
 
-**Example URL:**
 
-    https://api.telegram.org/bot123456:ABCDEF/setWebhook?url=https://example.com/chatidbot.php
+
+Example URL:
+
+`https://api.telegram.org/bot123456:ABCDEF/setWebhook?url=https://example.com/chatidbot.php`
+
 
 ---
 
@@ -62,9 +64,13 @@ Forwarded Message: The bot replies with the original sender’s User ID.
 
 🖼️ Example Output
 
-Your Telegram ID: 123456789  
-Chat ID: -1009876543210  
+Your Telegram ID: 123456789
+
+Chat ID: -1009876543210
+
 Forwarded From User ID: 987654321
+
+
 
 ---
 
@@ -97,3 +103,4 @@ This project is licensed under the MIT License. Feel free to use, modify, and sh
 <p align="center">
   🚀 Built for <strong>Telegram developers</strong> who value speed, simplicity, and complete control over their bots.
 </p>
+```
