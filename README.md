@@ -85,11 +85,9 @@ Forwarded From User ID: 987654321
 
 
 ---
+## 👨‍💻 Developer
 
-👨‍💻 Developer
-
-Created and maintained by @Unknown_RK01.
-
+Created and maintained by [@Unknown_RK01](https://t.me/Unknown_RK01)
 
 ---
 
@@ -103,5 +101,5 @@ This project is licensed under the MIT License. Feel free to use, modify, and sh
 <p align="center">
   🚀 Built for <strong>Telegram developers</strong> who value speed, simplicity, and complete control over their bots.
 </p><p align="center">
-  <a href="https://t.me/Unknown_RK01" target="_blank"><button style="background-color:#1E90FF;color:white;padding:10px 20px;border-radius:5px;">Get Started</button></a>
+  <a href="(https://github.com/Unknown-Dev0001/ID-Fetcher-Bot)" target="_blank"><button style="background-color:#1E90FF;color:white;padding:10px 20px;border-radius:5px;">Get Started</button></a>
 </p>
