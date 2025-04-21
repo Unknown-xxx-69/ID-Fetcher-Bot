@@ -1,4 +1,4 @@
-# ⚡ **ID Fetcher Bot (PHP)**
+# ⚡ **ID Fetcher Bot (PHP Based)**
 
 An advanced, lightning-fast Telegram bot built with PHP, designed to fetch **User IDs**, **Group Chat IDs**, and **Forwarded User IDs** instantly. Whether you're a bot developer, group admin, or a power user, this tool is perfect for you.
 
@@ -42,10 +42,10 @@ An advanced, lightning-fast Telegram bot built with PHP, designed to fetch **Use
    ```plaintext
    https://api.telegram.org/bot{YOUR_BOT_TOKEN}/setWebhook?url=https://yourdomain.com/chatidbot.php
    
-Example URL:
-    ```plaintext
-https://api.telegram.org/bot123456:ABCDEF/setWebhook?url=https://example.com/chatidbot.php
+**Example URL:**
 
+```plaintext
+https://api.telegram.org/bot123456:ABCDEF/setWebhook?url=https://example.com/chatidbot.php
 
 
 
