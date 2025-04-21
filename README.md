@@ -48,7 +48,7 @@ Example URL:
 
 ---
 
-💡 Usage
+## 💡 Usage
 
 Private Chat: The bot replies with your Telegram User ID.
 
@@ -60,7 +60,7 @@ Forwarded Message: The bot replies with the original sender’s User ID.
 
 ---
 
-🖼️ Example Output
+## 🖼️ Example Output
 
 Your Telegram ID: 123456789
 
@@ -72,7 +72,7 @@ Forwarded From User ID: 987654321
 
 ---
 
-🛠️ Customization Ideas
+## 🛠️ Customization Ideas
 
 🔒 Add logging of user data for tracking purposes.
 
@@ -89,7 +89,7 @@ Created and maintained by [@Unknown_RK01](https://t.me/Unknown_RK01)
 
 ---
 
-⚖️ License
+## ⚖️ License
 
 This project is licensed under the MIT License. Feel free to use, modify, and share it!
 
