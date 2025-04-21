@@ -42,7 +42,6 @@ An advanced, lightning-fast Telegram bot built with PHP, designed to fetch **Use
    ```plaintext
    https://api.telegram.org/bot{YOUR_BOT_TOKEN}/setWebhook?url=https://yourdomain.com/chatidbot.php
 
-
 Example URL:
 
 `https://api.telegram.org/bot123456:ABCDEF/setWebhook?url=https://example.com/chatidbot.php`
