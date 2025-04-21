@@ -1,103 +1,99 @@
-<h1 align="center">⚡ ChatID Bot (PHP) ⚡</h1>
+# ⚡ ChatID Bot (PHP)
+
+A fast and minimal Telegram bot built using PHP. Instantly fetch Telegram **User IDs**, **Group Chat IDs**, and **Forwarded User IDs** — perfect for bot developers, group admins, and power users.
+
 <p align="center">
-  <i>A fast, minimalistic Telegram bot that reveals User IDs, Group Chat IDs, and Channel IDs with ease.</i><br>
-    <b>Powered by PHP | Built for Developers, Admins & Bot Creators</b>
-    </p>
+  <a href="https://www.php.net/"><img src="https://img.shields.io/badge/PHP-7.0%2B-blue.svg?style=flat-square" /></a>
+  <a href="https://t.me/Unknown_RK01"><img src="https://img.shields.io/badge/Developer-%40Unknown__RK01-blueviolet?style=flat-square" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" /></a>
+</p>
 
-    <p align="center">
-      <a href="https://www.php.net/"><img src="https://img.shields.io/badge/PHP-7.0%2B-blue.svg?style=flat-square" /></a>
-        <a href="https://t.me/Unknown_RK01"><img src="https://img.shields.io/badge/By-%40Unknown__RK01-blueviolet?style=flat-square" /></a>
-          <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" /></a>
-          </p>
+---
 
-          ---
+## 🚀 Features
 
-          ## 🚀 Features
+- Fetch **User ID** in private chats  
+- Get **Group Chat ID** or **Channel ID**  
+- Detect **Forwarded User ID**  
+- Works with both **webhook** and **getUpdates**  
+- Lightweight and dependency-free  
+- Easy to extend for advanced use  
 
-          - Fetch **User ID** in private chats
-          - Detect **Chat ID** in groups and channels
-          - Extract **Forwarded User IDs**
-          - Works with **getUpdates** or **webhook**
-          - Lightweight and fast
-          - Zero dependencies
+---
 
-          ---
+## ⚙️ Requirements
 
-          ## ⚙️ Requirements
+- PHP 7.0 or higher  
+- Telegram Bot Token (via [@BotFather](https://t.me/BotFather))  
+- HTTPS-enabled web server (for webhook support)  
 
-          - PHP 7.0 or higher
-          - Telegram Bot Token from [@BotFather](https://t.me/BotFather)
-          - Web server with HTTPS support (for webhook usage)
+---
 
-          ---
+## 🔧 Installation
 
-          ## 🔧 Installation
+1. Upload `chatidbot.php` to a PHP-compatible server.  
+2. Open the file and replace the token line with your bot token:
 
-          1. **Clone or upload** the `chatidbot.php` to a web-accessible PHP server
+   ```php
+   $botToken = 'YOUR_BOT_TOKEN_HERE';
 
-          2. **Edit your bot token** inside the file:
+3. Set up the webhook using:
 
-             ```php
-                $botToken = 'YOUR_BOT_TOKEN_HERE';
-
-                3. Set Telegram webhook (replace placeholders with actual values):
-
-                https://api.telegram.org/bot<YOUR_BOT_TOKEN>/setWebhook?url=https://yourdomain.com/chatidbot.php
+https://api.telegram.org/bot<YOUR_BOT_TOKEN>/setWebhook?url=https://yourdomain.com/chatidbot.php
 
 
 
 
-                ---
+---
 
-                💡 Usage
+💡 Usage
 
-                Send any message in private chat → Get your User ID
+Private Chat → Bot replies with your Telegram User ID
 
-                Add bot to a group and send a message → Get Group Chat ID
+Group/Channel → Bot replies with chat ID when someone sends a message
 
-                Forward a message from someone → Bot replies with original sender's ID
-
-
-
-                ---
-
-                🖼️ Example Output
-
-                Your Telegram ID: 123456789
-                Chat ID: -1009876543210
-                Forwarded From User ID: 1122334455
+Forwarded Message → Replies with the original sender's User ID
 
 
-                ---
 
-                🛠️ Customization Tips
+---
 
-                Add message logging
+🖼️ Example Output
 
-                Implement access restrictions (admins only)
-
-                Extend with inline keyboards or commands
-
-
-                Fork it. Hack it. Make it yours.
+Your Telegram ID: 123456789
+Chat ID: -1009876543210
+Forwarded From User ID: 987654321
 
 
-                ---
+---
 
-                👨‍💻 Developer
+🛠️ Customization Ideas
 
-                Made with dedication by @Unknown_RK01
+Add logging of user data
 
+Restrict usage to specific Telegram IDs
 
-                ---
-
-                ⚖️ License
-
-                Licensed under the MIT License. Feel free to use, modify, and distribute.
+Add inline buttons, commands, or admin panel
 
 
-                ---
 
-                <p align="center">
-                  Built for Telegram Bot Developers & Admins who need speed.
-                  </p>
+---
+
+👨‍💻 Developer
+
+Developed and maintained by @Unknown_RK01
+
+
+---
+
+⚖️ License
+
+Released under the MIT License — use, modify, and share freely.
+
+
+---
+
+<p align="center">
+  Built for Telegram devs who value speed, simplicity, and control.
+</p>
+```
